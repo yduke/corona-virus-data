@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Corona Virus Data\n"
-"POT-Creation-Date: 2020-03-18 11:03+0800\n"
-"PO-Revision-Date: 2020-03-18 11:03+0800\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2020-03-23 05:49+0800\n"
+"PO-Revision-Date: 2020-03-23 05:49+0800\n"
+"Last-Translator: Duke Yin <duke@dukeyin.com>\n"
+"Language-Team: Duke Yin <duke@dukeyin.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,157 +21,885 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#. Plugin Name of the plugin/theme
-#: admin/class-corona-virus-data-admin.php:112
-#: admin/class-corona-virus-data-admin.php:190
-msgid "Corona Virus Data"
-msgstr ""
-
-#: admin/class-corona-virus-data-admin.php:123
-msgid "Country or region to show"
-msgstr ""
-
-#: admin/class-corona-virus-data-admin.php:130
-msgid "Select country or region"
-msgstr ""
-
-#: admin/class-corona-virus-data-admin.php:142
+#: admin/class-corona-virus-data-admin.php:1
 msgid "China"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:143
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Italy"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:144
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Iran"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:145
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Spain"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:146
+#: admin/class-corona-virus-data-admin.php:1
 msgid "South Korea"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:147
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Germany"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:148
+#: admin/class-corona-virus-data-admin.php:1
 msgid "France"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:149
+#: admin/class-corona-virus-data-admin.php:1
 msgid "United States"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:150
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Switzerland"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:151
+#: admin/class-corona-virus-data-admin.php:1
 msgid "United Kingdom"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:152
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Netherlands"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:153
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Austria"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:154
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Norway"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:155
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Belgium"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:156
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Sweden"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:157
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Denmark"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:158
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Japan"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:159
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Malaysia"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:160
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Canada"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:161
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Australia"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:162
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Portugal"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:163
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Qatar"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:164
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Greece"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:165
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Israel"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:166
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Finland"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:167
-msgid "Singapore"
-msgstr ""
-
-#: admin/class-corona-virus-data-admin.php:168
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Slovenia"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:169
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Bahrain"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:170
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Brazil"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:171
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Estonia"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:172
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Iceland"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:173
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Pakistan"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:174
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Poland"
 msgstr ""
 
-#: admin/class-corona-virus-data-admin.php:181
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Turkey"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Ireland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Luxembourg"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mexico"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "India"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bangladesh"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Argentina"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Egypt"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Philippines"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Russia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Nigeria"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Indonesia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Peru"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Congo - Kinshasa"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Colombia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Hong Kong"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Taiwan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Thailand"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Chile"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Vietnam"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Angola"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Sudan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Saudi Arabia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Burma"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Côte D’Ivoire"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "South Africa"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Algeria"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "North Korea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Afghanistan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Morocco"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Ethiopia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kenya"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Venezuela"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Tanzania"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Syria"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Ukraine"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Senegal"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Tunisia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Libya"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Uzbekistan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cuba"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Dominican Republic"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Azerbaijan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Ghana"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bolivia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kuwait"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Yemen"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Haiti"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Romania"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cameroon"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Paraguay"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Lebanon"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Belarus"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Madagascar"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Hungary"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Zimbabwe"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Uruguay"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mali"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guinea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cambodia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Togo"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mozambique"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "El Salvador"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Uganda"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "United Arab Emirates"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "New Zealand"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Congo - Brazzaville"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Zambia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Costa Rica"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Panama"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kazakhstan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bulgaria"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Czechia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Burkina Faso"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Armenia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Somalia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Georgia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Serbia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Tajikistan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Jordan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Liberia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guatemala"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Chad"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Honduras"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Jamaica"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Djibouti"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Nicaragua"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Niger"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Albania"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Nepal"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mongolia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Rwanda"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Central African Republic"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Leone"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Benin"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Laos"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Latvia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mauritania"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Oman"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Turkmenistan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Croatia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bosnia And Herzegovina"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Moldova"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Malawi"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Eritrea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mauritius"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Gabon"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Lithuania"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Macedonia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Slovakia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Malta"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Lesotho"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Burundi"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Brunei"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Trinidad And Tobago"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Papua New Guinea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Namibia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guyana"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Suriname"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Timor-Leste"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bahamas"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cyprus"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Sri Lanka"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Botswana"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Barbados"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Fiji"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Curaçao"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Montenegro"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Comoros"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cabo Verde"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Maldives"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "South Sudan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bhutan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Swaziland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Sao Tome And Principe"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Solomon Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Aruba"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Samoa"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Andorra"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Vanuatu"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Gambia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Tonga"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Saint Lucia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Monaco"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Liechtenstein"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Antigua And Barbuda"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Grenada"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Seychelles"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "San Marino"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kiribati"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Marshall Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Dominica"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Saint Kitts And Nevis"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Belize"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "American Samoa"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Tuvalu"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Micronesia, Federated States Of"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guam"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "West Bank"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Sint Maarten"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Kosovo"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Palau"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Macau"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Puerto Rico"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Reunion"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Gibraltar"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Guadeloupe"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "French Polynesia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "New Caledonia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "French Guiana"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Mayotte"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Greenland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Faroe Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Wallis And Futuna"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Saint Helena, Ascension, And Tristan Da Cunha"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Bermuda"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Turks And Caicos Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cayman Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Cook Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Falkland Islands - Islas Malvinas"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "South Georgia And South Sandwich Islands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Select data of country or region you want to show under globle data:"
 msgstr ""
 
+#. Plugin Name of the plugin/theme
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Corona Virus Data"
+msgstr ""
+
 #: includes/class-corona-virus-data.php:225
+#: includes/class-corona-virus-data.php:237
 msgid "Last update on (GMT) : "
 msgstr ""
 
@@ -181,16 +909,19 @@ msgstr ""
 
 #: includes/class-corona-virus-data.php:227
 #: includes/class-corona-virus-data.php:231
+#: includes/class-corona-virus-data.php:237
 msgid "Confirmed"
 msgstr ""
 
 #: includes/class-corona-virus-data.php:228
 #: includes/class-corona-virus-data.php:232
+#: includes/class-corona-virus-data.php:237
 msgid "Deaths"
 msgstr ""
 
 #: includes/class-corona-virus-data.php:229
 #: includes/class-corona-virus-data.php:233
+#: includes/class-corona-virus-data.php:237
 msgid "Recovered"
 msgstr ""
 
@@ -204,6 +935,14 @@ msgstr ""
 
 #: includes/class-corona-virus-data.php:234
 msgid "https://github.com/Laeyoung/COVID-19-API"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:237
+msgid "Sort by confirmed numbers."
+msgstr ""
+
+#: includes/class-corona-virus-data.php:237
+msgid "Country or Region"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
