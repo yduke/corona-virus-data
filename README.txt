@@ -55,7 +55,7 @@ The data source of this plugin came from ainize.ai, pretty fast as I test, but s
 2. The option page let you choose witch contry to focus on.
 
 == Changelog ==
-= 1.2.0 =* README.txt update.* A map to help select country in options page.* All avalible countries or regions are added to selector.* New short code [cov2019all] to show all latest data of countries in a table.
+= 1.2.0 =* README.txt update.* A map to help select a country in options page.* All avalible countries or regions are added to selector.* New short code [cov2019all] to show all latest data of countries in a table.* Data in table will sort by "Confirmed" numbers.
 
 = 1.1.2 =
 * README.txt update, spelling correction.
