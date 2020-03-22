@@ -1,82 +1,1 @@
-=== Corona Virus Data ===
-Contributors: freeduke
-Donate link: https://www.dukeyin.com
-Tags: ncov19, coronavirus, covid-19, Corona virus, 冠状病毒, 肺炎, 武汉冠状病毒
-Requires at least: 3.0.1
-Tested up to: 5.4
-Stable tag: 1.2.0
-Requires PHP: 7.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-This plugin uses an api to display the "Corona virus" data in the whole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.
-
-== Description ==
-This plugin uses an api to display the "Corona virus" data in thewhole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.
-You can see how many patient(s) are confirmed, dead or recovered, in the world, and the country or region you select.
-
-The data source came from Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE, thanks to Laeyoung provide the data api(https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/). It updates about every hour to give us the coronavirus data.
-The data API documents: https://github.com/Laeyoung/COVID-19-API
-This API is free to use. The licenses/MIT gose here: https://github.com/Laeyoung/COVID-19-API/blob/master/LICENSE
-This plugin is free to use.
-
-Thanks to the API author JHU CSSE again.
-
-God bless Wuhan, god bless China,  and god bless people of the world. May everyone in this world be healthy.
-
-== Installation ==
-
-This section describes how to install the plugin and get it working.
-
-1. Upload this plugin(unziped) to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place the shortcode [cov2019] in your post or page anywhere you want to display a chart to show the virus data.
-
-== Frequently Asked Questions ==
-
-= What's been shared between API and me? =
-
-This plugin only download Coronavirus counts data from API to visitor's web browser as json file, no uploads, no server information nor visitor information will be shared to anywhere, anyone.
-
-
-= Any admin page? =
-Yes, go to Settings -> Corona Virus Data, there you can choose a Country or Region to focus on, it will show up in front-end. c
-
-= How to use this plugin? =
-Activate this plugin, write the shortcode [cov2019] to any page or post, publish it, charts will show up, that's it.
-
-= Networking problem with getting data? =
-
-The data source of this plugin came from ainize.ai, pretty fast as I test, but shit happens, if you can't get any data, try to relax and reload your page a while later.
-
-== Screenshots ==
-
-1. The data shows in front-end.
-2. The option page let you choose witch contry to focus on.
-
-== Changelog ==
-= 1.2.0 =* README.txt update.* A map to help select a country in options page.* All avalible countries or regions are added to selector.* New short code [cov2019all] to show all latest data of countries in a table.* Data in table will sort by "Confirmed" numbers.
-
-= 1.1.2 =
-* README.txt update, spelling correction.
-* More countries added, now 33 countries in total.
-* Add a screenshot of options page.
-* Bug fix.
-
-= 1.1.1 =
-* Change the API from lab.isaaclin.cn to COVID-19-API.
-* Option page to select your region or country.
-* Add a loading icon.
-* Translation updated.
-
-= 1.1.0 =
-* Change the API from sina.cn to lab.isaaclin.cn.
-* JavaScript file optimized.
-
-= 1.0.0 =
-* A stable version.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Noting to worry about.
+=== Corona Virus Data ===Contributors: freedukeDonate link: https://www.dukeyin.comTags: ncov19, coronavirus, covid-19, Corona virus, 冠状病毒, 肺炎, 武汉冠状病毒Requires at least: 3.0.1Tested up to: 5.4Stable tag: 1.2.0Requires PHP: 7.2License: GPLv2 or laterLicense URI: http://www.gnu.org/licenses/gpl-2.0.htmlThis plugin uses an api to display the "Corona virus" data in the whole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.== Description ==This plugin uses an api to display the "Corona virus" data in the whole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.You can see how many patient(s) are confirmed, dead or recovered, in the world, and the country or region you select.The data source came from Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE, thanks to LaeYoung provide the data api(https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/). It updates about every hour to give us the coronavirus data.The data API documents: https://github.com/Laeyoung/COVID-19-APIThis API is free to use. The licenses/MIT goes here: https://github.com/Laeyoung/COVID-19-API/blob/master/LICENSEThis plugin is free to use.God bless Wuhan, god bless China,  and god bless people of the world. May everyone in this world be healthy.== Installation ==This section describes how to install the plugin and get it working.1. Upload this plugin(unziped) to the `/wp-content/plugins/` directory1. Activate the plugin through the 'Plugins' menu in WordPress1. Place the shortcode [cov2019] in your post or page anywhere you want to display a chart to show the virus data.== Frequently Asked Questions === What's been shared between API and me? =This plugin only download Coronavirus counts data from API to visitor's web browser as json file, no uploads, no server information nor visitor information will be shared to anywhere, anyone.= Any admin page? =Yes, go to Settings -> Corona Virus Data, there you can choose a Country or Region to focus on, it will show up in front-end.= How to use this plugin? =Activate this plugin, write the shortcode [cov2019] or [cov2019all] to any page or post, publish it, charts will show up, that's it.= Networking problem with getting data? =The data source of this plugin came from an api, pretty fast as I test, but shit happens, if you can't get any data, try to relax and reload your page a while later.== Screenshots ==1. The data shows in front-end.2. The option page let you choose which country to focus on.== Changelog === 1.2.0 =* README.txt update.* A map to help select a country in options page.* All avalible countries or regions are added to selector.* New short code [cov2019all] to show all latest data of countries in a table.* Data in table will sort by "Confirmed" numbers.= 1.1.2 =* README.txt update, spelling correction.* More countries added, now 33 countries in total.* Add a screenshot of options page.* Bug fix.= 1.1.1 =* Change the API from lab.isaaclin.cn to COVID-19-API.* Option page to select your region or country.* Add a loading icon.* Translation updated.= 1.1.0 =* Change the API from sina.cn to lab.isaaclin.cn.* JavaScript file optimized.= 1.0.0 =* A stable version.== Upgrade Notice === 1.0 =Noting to worry about.
