@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for public-facing functionality
+ */
+.text-center{text-align:center}
+.one_third{width:33.3%;position:relative;float:left;padding:1em 0;display:inline-block;}
+#ncov2019 p{display:block;clear:both}
+.title{width:100%;padding-top:10px;display:inline-block}
+.cov-loading1,.cov-loading2{position: absolute;background-image:URL( '../img/loading.svg' );background-size:20px 20px;background-repeat:no-repeat;width:40px;height:40px}
+@media screen and (max-width:600px){
+.one_third{width:50%;padding: 0 0 1em}table#cov_all_table td{}
+}

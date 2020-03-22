@@ -1,0 +1,226 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Corona Virus Data\n"
+"POT-Creation-Date: 2020-03-18 11:03+0800\n"
+"PO-Revision-Date: 2020-03-18 11:03+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: corona-virus-data.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-corona-virus-data-admin.php:112
+#: admin/class-corona-virus-data-admin.php:190
+msgid "Corona Virus Data"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:123
+msgid "Country or region to show"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:130
+msgid "Select country or region"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:142
+msgid "China"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:143
+msgid "Italy"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:144
+msgid "Iran"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:145
+msgid "Spain"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:146
+msgid "South Korea"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:147
+msgid "Germany"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:148
+msgid "France"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:149
+msgid "United States"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:150
+msgid "Switzerland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:151
+msgid "United Kingdom"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:152
+msgid "Netherlands"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:153
+msgid "Austria"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:154
+msgid "Norway"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:155
+msgid "Belgium"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:156
+msgid "Sweden"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:157
+msgid "Denmark"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:158
+msgid "Japan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:159
+msgid "Malaysia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:160
+msgid "Canada"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:161
+msgid "Australia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:162
+msgid "Portugal"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:163
+msgid "Qatar"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:164
+msgid "Greece"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:165
+msgid "Israel"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:166
+msgid "Finland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:167
+msgid "Singapore"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:168
+msgid "Slovenia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:169
+msgid "Bahrain"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:170
+msgid "Brazil"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:171
+msgid "Estonia"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:172
+msgid "Iceland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:173
+msgid "Pakistan"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:174
+msgid "Poland"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:181
+msgid "Select data of country or region you want to show under globle data:"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:225
+msgid "Last update on (GMT) : "
+msgstr ""
+
+#: includes/class-corona-virus-data.php:226
+msgid "Global Total"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:227
+#: includes/class-corona-virus-data.php:231
+msgid "Confirmed"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:228
+#: includes/class-corona-virus-data.php:232
+msgid "Deaths"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:229
+#: includes/class-corona-virus-data.php:233
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:230
+msgid "Total in "
+msgstr ""
+
+#: includes/class-corona-virus-data.php:234
+msgid "API provided by "
+msgstr ""
+
+#: includes/class-corona-virus-data.php:234
+msgid "https://github.com/Laeyoung/COVID-19-API"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.dukeyin.com/corona-virus-data/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin use an api to display the \"Corona virus\" data in whole world "
+"and country you care through a shortcode [cov2019] in your WordPress post or "
+"page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Duke Yin"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.dukeyin.com"
+msgstr ""

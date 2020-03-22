@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Corona Virus Data\n"
+"POT-Creation-Date: 2020-03-18 00:55+0800\n"
+"PO-Revision-Date: 2020-03-18 00:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: corona-virus-data.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-corona-virus-data-admin.php:112
+#: admin/class-corona-virus-data-admin.php:168
+msgid "Corona Virus Data"
+msgstr "冠状病毒数据"
+
+#: admin/class-corona-virus-data-admin.php:123
+msgid "Country or region to show"
+msgstr "国家或地区"
+
+#: admin/class-corona-virus-data-admin.php:130
+msgid "Select country or region"
+msgstr "选择国家或地区"
+
+#: admin/class-corona-virus-data-admin.php:142
+msgid "China"
+msgstr "中国"
+
+#: admin/class-corona-virus-data-admin.php:143
+msgid "Italy"
+msgstr "意大利"
+
+#: admin/class-corona-virus-data-admin.php:144
+msgid "Iran"
+msgstr "伊朗"
+
+#: admin/class-corona-virus-data-admin.php:145
+msgid "Spain"
+msgstr "西班牙"
+
+#: admin/class-corona-virus-data-admin.php:146
+msgid "South Korea"
+msgstr "韩国"
+
+#: admin/class-corona-virus-data-admin.php:147
+msgid "Germany"
+msgstr "德国"
+
+#: admin/class-corona-virus-data-admin.php:148
+msgid "France"
+msgstr "法国"
+
+#: admin/class-corona-virus-data-admin.php:149
+msgid "United States"
+msgstr "美国"
+
+#: admin/class-corona-virus-data-admin.php:150
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: admin/class-corona-virus-data-admin.php:151
+msgid "United Kingdom"
+msgstr "英国"
+
+#: admin/class-corona-virus-data-admin.php:152
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: admin/class-corona-virus-data-admin.php:159
+msgid "Select data of country or region you want to show under globle data:"
+msgstr "选择你关注的国家或地区，所选地将显示在全球数据下方："
+
+#: includes/class-corona-virus-data.php:225
+msgid "Last update on (GMT) : "
+msgstr "截止时间 (格林威治时间) ： "
+
+#: includes/class-corona-virus-data.php:226
+msgid "Global Total"
+msgstr "全球累计"
+
+#: includes/class-corona-virus-data.php:227
+#: includes/class-corona-virus-data.php:231
+msgid "Confirmed"
+msgstr "确诊"
+
+#: includes/class-corona-virus-data.php:228
+#: includes/class-corona-virus-data.php:232
+msgid "Deaths"
+msgstr "死亡"
+
+#: includes/class-corona-virus-data.php:229
+#: includes/class-corona-virus-data.php:233
+msgid "Recovered"
+msgstr "治愈"
+
+#: includes/class-corona-virus-data.php:230
+msgid "Total in "
+msgstr "地区累计 "
+
+#: includes/class-corona-virus-data.php:234
+msgid "API provided by "
+msgstr "API提供者 "
+
+#: includes/class-corona-virus-data.php:234
+msgid "https://github.com/Laeyoung/COVID-19-API"
+msgstr "https://github.com/Laeyoung/COVID-19-API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.dukeyin.com/corona-virus-data/"
+msgstr "https://www.dukeyin.com/corona-virus-data/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin use an api to display the \"Corona virus\" data in whole world "
+"and country you care through a shortcode [cov2019] in your WordPress post or "
+"page."
+msgstr ""
+"此插件通过一个短代码[cov2019]，在WordPress的文章或页面中显示全世界于2019年爆"
+"发的新型冠状病毒数据。"
+
+#. Author of the plugin/theme
+msgid "Duke Yin"
+msgstr "Duke Yin"
+
+#. Author URI of the plugin/theme
+msgid "https://www.dukeyin.com"
+msgstr "https://www.dukeyin.com"
+
+#~ msgid "Confirmed Incr"
+#~ msgstr "确诊"
+
+#~ msgid "Deaths Incr"
+#~ msgstr "死亡"
+
+#~ msgid "Recovered Incr"
+#~ msgstr "出院"
+
+#~ msgid ""
+#~ "Data source: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE"
+#~ msgstr "数据来源: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE"
+
+#~ msgid "Suspicious"
+#~ msgstr "疑似"
+
+#~ msgid "Today"
+#~ msgstr "今日新增"
+
+#~ msgid "Suspicious Incr"
+#~ msgstr "疑似"
+
+#~ msgid "In Mainland China, Hongkong, Taiwan."
+#~ msgstr "数据范围：中国大陆，含港澳台。"
+
+#~ msgid "Data source: China National Health Commission"
+#~ msgstr "数据来源：中国国家卫生健康委员会"
+
+#~ msgid "New Confirmed"
+#~ msgstr "确诊"
+
+#~ msgid "New Suspicious"
+#~ msgstr "疑似"
+
+#~ msgid "New Deaths"
+#~ msgstr "死亡"
+
+#~ msgid "New Recovered"
+#~ msgstr "出院"
+
+#~ msgid "Total Confirmed"
+#~ msgstr "确诊"
+
+#~ msgid "Total Suspicious"
+#~ msgstr "疑似"
+
+#~ msgid "Total Recovered"
+#~ msgstr "出院"

@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Corona Virus Data\n"
+"POT-Creation-Date: 2020-03-17 18:35+0800\n"
+"PO-Revision-Date: 2020-03-17 18:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: corona-virus-data.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-corona-virus-data-admin.php:112
+#: admin/class-corona-virus-data-admin.php:168
+msgid "Corona Virus Data"
+msgstr "داده های ویروس کرونا"
+
+#: admin/class-corona-virus-data-admin.php:123
+msgid "Country or region to show"
+msgstr "کشور یا منطقه برای نشان دادن"
+
+#: admin/class-corona-virus-data-admin.php:130
+msgid "Select country or region"
+msgstr "کشور یا منطقه را انتخاب کنید"
+
+#: admin/class-corona-virus-data-admin.php:142
+msgid "China"
+msgstr "چین"
+
+#: admin/class-corona-virus-data-admin.php:143
+msgid "Italy"
+msgstr "ایتالیا"
+
+#: admin/class-corona-virus-data-admin.php:144
+msgid "Iran"
+msgstr "ایران"
+
+#: admin/class-corona-virus-data-admin.php:145
+msgid "Spain"
+msgstr "اسپانیا"
+
+#: admin/class-corona-virus-data-admin.php:146
+msgid "South Korea"
+msgstr "کره جنوبی"
+
+#: admin/class-corona-virus-data-admin.php:147
+msgid "Germany"
+msgstr "آلمان"
+
+#: admin/class-corona-virus-data-admin.php:148
+msgid "France"
+msgstr "فرانسه"
+
+#: admin/class-corona-virus-data-admin.php:149
+msgid "United States"
+msgstr "ایالات متحده"
+
+#: admin/class-corona-virus-data-admin.php:150
+msgid "Switzerland"
+msgstr "سوئیس"
+
+#: admin/class-corona-virus-data-admin.php:151
+msgid "United Kingdom"
+msgstr "انگلستان"
+
+#: admin/class-corona-virus-data-admin.php:152
+msgid "Netherlands"
+msgstr "هلند"
+
+#: admin/class-corona-virus-data-admin.php:159
+msgid "Select data of country or region you want to show under globle data:"
+msgstr ""
+"داده های کشور یا منطقه ای را که می خواهید تحت داده های جهانی نشان داده شود "
+"انتخاب کنید:"
+
+#: includes/class-corona-virus-data.php:225
+msgid "Last update on (GMT) : "
+msgstr "آخرین بروزرسانی در (GMT):"
+
+#: includes/class-corona-virus-data.php:226
+msgid "Global Total"
+msgstr "جهانی کل"
+
+#: includes/class-corona-virus-data.php:227
+#: includes/class-corona-virus-data.php:231
+msgid "Confirmed"
+msgstr "تایید شده"
+
+#: includes/class-corona-virus-data.php:228
+#: includes/class-corona-virus-data.php:232
+msgid "Deaths"
+msgstr "مرگ"
+
+#: includes/class-corona-virus-data.php:229
+#: includes/class-corona-virus-data.php:233
+msgid "Recovered"
+msgstr "بهبود یافت"
+
+#: includes/class-corona-virus-data.php:230
+msgid "Total in "
+msgstr "در کل"
+
+#: includes/class-corona-virus-data.php:234
+msgid "API provided by "
+msgstr "API ارائه شده توسط"
+
+#: includes/class-corona-virus-data.php:234
+msgid "https://github.com/Laeyoung/COVID-19-API"
+msgstr "https://github.com/Laeyoung/COVID-19-API"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.dukeyin.com/corona-virus-data/"
+msgstr "https://www.dukeyin.com/corona-virus-data/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin use an api to display the \"Corona virus\" data in whole world "
+"and country you care through a shortcode [cov2019] in your WordPress post or "
+"page."
+msgstr ""
+"این افزونه از api برای نمایش داده های \"ویروس Corona\" در کل دنیا و کشوری که "
+"از طریق کد کوتاه [cov2019] در پست یا صفحه وردپرس خود مراقبت می کنید ، "
+"استفاده می کند."
+
+#. Author of the plugin/theme
+msgid "Duke Yin"
+msgstr "Duke Yin"
+
+#. Author URI of the plugin/theme
+msgid "https://www.dukeyin.com"
+msgstr "https://www.dukeyin.com"
