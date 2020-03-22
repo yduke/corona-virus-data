@@ -4,15 +4,15 @@ Donate link: https://www.dukeyin.com
 Tags: ncov19, coronavirus, covid-19, Corona virus, 冠状病毒, 肺炎, 武汉冠状病毒
 Requires at least: 3.0.1
 Tested up to: 5.4
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin uses an api to display the "Corona virus" data in the whole world and country you care through a shortcode [cov2019] in your WordPress post or page.
+This plugin uses an api to display the "Corona virus" data in the whole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.
 
 == Description ==
-This plugin uses an api to display the "Corona virus" data in thewhole world and country you care through a shortcode [cov2019] in your WordPress post or page.
+This plugin uses an api to display the "Corona virus" data in thewhole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.
 You can see how many patient(s) are confirmed, dead or recovered, in the world, and the country or region you select.
 
 The data source came from Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE, thanks to Laeyoung provide the data api(https://wuhan-coronavirus-api.laeyoung.endpoint.ainize.ai/). It updates about every hour to give us the coronavirus data.
@@ -55,7 +55,7 @@ The data source of this plugin came from ainize.ai, pretty fast as I test, but s
 2. The option page let you choose witch contry to focus on.
 
 == Changelog ==
-
+= 1.2.0 =* README.txt update.* A map to help select country in options page.* All avalible countries or regions are added to selector.* New short code [cov2019all] to show all latest data of countries in a table.
 
 = 1.1.2 =
 * README.txt update, spelling correction.
