@@ -1,4 +1,5 @@
 # Corona Virus Data - a WordPress plugin
+![Corona Virus Data](https://raw.githubusercontent.com/yduke/corona-virus-data/master/assets/corona-virus-data-wordpress-plugin.png)
 The corona virus data WordPress plugin mirror.
 This plugin uses an api to display the "Corona virus" data in the whole world and country you care through shortcode [cov2019] and [cov2019all] in your WordPress post or page.
 
