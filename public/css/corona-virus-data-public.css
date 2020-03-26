@@ -1,11 +1,11 @@
 /**
  * All of the CSS for public-facing functionality
  */
-.text-center{text-align:center}
-.one_third{width:33.3%;position:relative;float:left;padding:1em 0;display:inline-block;}
-#ncov2019 p{display:block;clear:both}
-.title{width:100%;padding-top:10px;display:inline-block}
-.cov-loading1,.cov-loading2{position: absolute;background-image:URL( '../img/loading.svg' );background-size:20px 20px;background-repeat:no-repeat;width:40px;height:40px}
-@media screen and (max-width:600px){
-.one_third{width:50%;padding: 0 0 1em}table#cov_all_table td{}
+.text-center{text-align:center}.one_half,.one_third,.one_fourth{position:relative;float:left;padding:1em 0;display:inline-block}
+.one_half{width:50%}.one_third{width:33.3%}.one_fourth{width:25%;position:relative;float:left;padding:1em 0;display:inline-block}
+#ncov2019 p{display:block;clear:both}
+.title{width:100%;padding-top:10px;display:inline-block}
+.cov-loading1,.cov-loading2,.cov-loading3{position: absolute;background-image:URL( '../img/loading.svg' );background-size:20px 20px;background-repeat:no-repeat;width:40px;height:40px}i.cov-loading3 {display: block;position: relative;margin:0 auto}img.cov_flag {width:20px;margin:0!important;display:unset!important;padding:unset!important}table#cov_all_table tr:nth-child(2n){background-color:#8e8e8e1a}td.cov_num{text-align:right}
+@media screen and (max-width:600px){.one_half,.one_third,.one_fourth{padding: 0 0 1em}.one_half{width:100%}
+.one_third,.one_fourth{width:50%}table#cov_all_table{font-size:small}table#cov_all_table td{white-space:nowrap;max-width:60px;overflow:hidden}#cov_table_container{width: 100%;overflow-y: auto;_overflow: auto;margin: 0 0 1em}
 }

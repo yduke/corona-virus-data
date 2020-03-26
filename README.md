@@ -35,11 +35,11 @@ This project is licensed under the GPL License  v2 - see the [LICENSE.txt](LICEN
 
 ## Current API
 
-[Laeyoung/COVID-19-API](https://github.com/Laeyoung/COVID-19-API)
+[NovelCOVID/API](https://github.com/NovelCOVID/API)
 
 ## Acknowledgments
 
-Thanks [Laeyoung](https://github.com/Laeyoung) providing the data API.
+Thanks [NovelCOVID/API](https://github.com/NovelCOVID/API) providing the data API.
 
 ## Term of use
 This plugin (program) is licensed under the GPL v2. You may copy, distribute and modify the software as long as you track changes/dates of in source files and keep modifications under GPL. You can distribute your application using a GPL library commercially, but you must also provide the source code. 
