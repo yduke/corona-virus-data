@@ -39,12 +39,14 @@
 	$.getJSON(url_all,function(data,status){
 		
 //        var datas = data.sort(desc);
-		var transform = {"<>":"tr","html":[
-                        {"<>":"td","html":"<img class='cov_flag' src='"+ cov__plugin_dir + 'public/img/flags/' + "${countryInfo.iso2}.png'> <span class='cov_co_name'>${country}</span>"},
-                        {"<>":"td","class":"cov_num","text":"${cases}"},
-                        {"<>":"td","class":"cov_num","text":"${deaths}"},
-                        {"<>":"td","class":"cov_num","text":"${recovered}"},
-                    ]};
+var transform = {"<>":"tr","html":[
+			{"<>":"td","html":function(){
+			return('<img class="cov_flag" src='+ cov__plugin_dir + 'public/img/flags/' + String( this.countryInfo.iso2 ).toLowerCase() + '.png> <span class="cov_co_name">'+ this.country +"</span>");
+			}},
+			{"<>":"td","class":"cov_num","text":"${cases}"},
+			{"<>":"td","class":"cov_num","text":"${deaths}"},
+			{"<>":"td","class":"cov_num","text":"${recovered}"},
+		]};
       		$('#cov_all_table').json2html(data,transform);
 			$(".cov-loading3").fadeOut("slow");
 // $("#cov_all_time").append(data["0"].lastupdate); 
