@@ -19,7 +19,15 @@ This plugin reads the coronavirus api data and show them to your visitors, data 
 
 1. Place the shortcode `[cov2019]` or  `[cov2019all]` in your post or page anywhere you want to display a chart to show the virus data.
 
+## How to use
 
+Put shortcodes into any of your WordPress page or post to show data in different way.
+
+* `[cov2019]` Showing bacsic data of world and a country you select.
+
+* `[cov2019all]` Showing data of all countries in a talbe.
+
+* `[cov2019map]` Showing a map with data of each country.
 
 ## Versioning
 
