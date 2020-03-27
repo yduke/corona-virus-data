@@ -23,7 +23,7 @@ This plugin reads the coronavirus api data and show them to your visitors, data 
 
 Put shortcodes into any of your WordPress page or post to show data in different way.
 
-* `[cov2019]` Showing bacsic data of world and a country you select.
+* `[cov2019]` Showing basic data of world and a country you select.
 
 * `[cov2019all]` Showing data of all countries in a talbe.
 
