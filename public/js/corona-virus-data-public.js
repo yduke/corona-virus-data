@@ -43,9 +43,9 @@ var transform = {"<>":"tr","html":[
 			{"<>":"td","html":function(){
 			return('<img class="cov_flag" src='+ cov__plugin_dir + 'public/img/flags/' + String( this.countryInfo.iso2 ).toLowerCase() + '.png> <span class="cov_co_name">'+ this.country +"</span>");
 			}},
-			{"<>":"td","class":"cov_num","text":"${cases}"},
+			{"<>":"td","class":"cov_num has-text-color has-luminous-vivid-orange-color","text":"${cases}"},
 			{"<>":"td","class":"cov_num","text":"${deaths}"},
-			{"<>":"td","class":"cov_num","text":"${recovered}"},
+			{"<>":"td","class":"cov_num has-text-color has-vivid-green-cyan-color","text":"${recovered}"},
 		]};
       		$('#cov_all_table').json2html(data,transform);
 			$(".cov-loading3").fadeOut("slow");
