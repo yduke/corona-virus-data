@@ -5,7 +5,7 @@
     let url = "https://corona.lmao.ninja/all";
     let urlt = "https://corona.lmao.ninja/countries/" + cov__contry;
     $.getJSON(url,function(data,status){
-        $("#cov-total-confirm").append(data["cases"]);
+        $("#cov-total-cases").append(data["cases"]);
         $("#cov-total-recoverd").append(data["recovered"]);
         $("#cov-total-dead").append(data["deaths"]); 		
 		$("#cov-time").text(timestampToTime(data.updated,1)); 
