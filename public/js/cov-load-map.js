@@ -29,19 +29,24 @@ $.ajax({
 			var lat = pos["lat"];
 			var lng = pos["long"];
 			var rad = coronaData[i]["cases"];
+			var col = "#ffd800";
 			var exp = rad.toString().length - 1;
 			if(exp > 3) {exp = 3;}
-			if(rad < 10) {rad = 4;}
+			if(rad < 8) {rad = 8;}
 			else {
-				rad = 5 + (rad / Math.pow(10, exp)) + (10 * (exp - 1));
-				if(rad > 40) {
-					rad = 40;
-				}
+				rad = 5 + (rad / Math.pow(70, exp)) + (6 * (exp - 1));
+				if( rad >= 0 && rad <= 2) { col = "#ffd800";}
+				if( rad >= 2 && rad <= 8) { col = "#ffae00";}
+				if( rad >= 8 && rad <= 14) { col = "#ff7e00";}
+				if( rad >= 14 && rad <= 17) { col = "#ff6c00";}
+				if( rad >= 17 && rad <= 17.5) { col = "#ff3c00";}
+				if( rad >= 17.5 && rad <= 80) { col = "#ff0000";}
+				if( rad >80 ) {rad = 80;col ="#ff0000";}
 			}
 			var circle = L.circleMarker([lat, lng], {
-					color: 'red',
-					fillColor: '#fe6553',
-					fillOpacity: 0.35,
+					color: '',
+					fillColor: col,
+					fillOpacity: .5,
 					radius: rad
 				     }).addTo(cov_map).bindPopup("<b>" + coronaData[i]["country"] + 
 					 "</b><hr>" + cov__cases + ": " + coronaData[i]["cases"] +  
@@ -53,7 +58,7 @@ $.ajax({
 					  "<br>" + cov__active + ": " + coronaData[i]["active"] +
 					  "<br>" + cov__casepmillion + ": " + coronaData[i]["casesPerOneMillion"] +
 					  "<br>" + cov__deathspmillion + ": " + coronaData[i]["deathsPerOneMillion"]
-					  );
+					  );console.log( rad );
 		}
 	},
 	error: function() {

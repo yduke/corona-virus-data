@@ -10,7 +10,7 @@
  * Plugin Name:       Corona Virus Data
  * Plugin URI:        https://www.dukeyin.com/corona-virus-data/
  * Description:       This plugin use an api to display the "Corona virus" data in whole world and country you care through a shortcode [cov2019] or [cov2019all] in your WordPress post or page.
- * Version:           1.2.3
+ * Version:           1.2.4
  * Author:            Duke Yin
  * Author URI:        https://www.dukeyin.com
  * License:           GPL-2.0+
@@ -28,7 +28,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'CORONA_VIRUS_DATA_VERSION', '1.2.3' );define( 'CORONA_VIRUS_DATA_URL', plugin_dir_url( __FILE__ ) );
+define( 'CORONA_VIRUS_DATA_VERSION', '1.2.4' );define( 'CORONA_VIRUS_DATA_URL', plugin_dir_url( __FILE__ ) );
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-corona-virus-data-activator.php
