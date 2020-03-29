@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Corona Virus Data\n"
-"POT-Creation-Date: 2020-03-28 05:54+0800\n"
-"PO-Revision-Date: 2020-03-28 05:54+0800\n"
+"POT-Creation-Date: 2020-03-29 17:35+0800\n"
+"PO-Revision-Date: 2020-03-29 17:34+0800\n"
 "Last-Translator: Duke Yin <duke@dukeyin.com>\n"
 "Language-Team: Duke Yin <duke@dukeyin.com>\n"
 "MIME-Version: 1.0\n"
@@ -914,12 +914,39 @@ msgid "South Georgia and the South Sandwich Islands"
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
+msgid "For showing virus data on a map through [cov2019map]."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid ""
+"Each token has 200,000 free map requests per month, so we can't share one "
+"token anymore."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+#, php-format
+msgid "Register an account <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+#, php-format
+msgid ""
+"After you registered and logged-in, the Default Public Token will be in <a "
+"href=\"%s\" target=\"_blank\">here</a>, copy your token and paste in the "
+"text field above, then save changes."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
 msgid "Select data of country or region you want to show under global data:"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: admin/class-corona-virus-data-admin.php:1
 msgid "Corona Virus Data"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "API Status: "
 msgstr ""
 
 #: includes/class-corona-virus-data.php:1

@@ -3,14 +3,14 @@
 	$(document).ready(function(){
 		var cov_map = L.map('cov__map').setView([47.3, 13.3], 2);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZnJlZWR1a2UiLCJhIjoiY2s4YWg2ZnNjMDI0NjNrbzNhOXhkZjg5diJ9.cY3pTJg5vdU4SC2D7UnU1Q', 
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + cov__mbx_token, 
 {
 	attribution: 'Map data &copy; OpenStreetMap contributors,CC-BY-SA, Imagery © Mapbox',
 	maxZoom: 18,
 	id: 'mapbox/streets-v11',
 	tileSize: 512,
 	zoomOffset: -1,
-	accessToken: 'pk.eyJ1IjoiZnJlZWR1a2UiLCJhIjoiY2s4YWg2ZnNjMDI0NjNrbzNhOXhkZjg5diJ9.cY3pTJg5vdU4SC2D7UnU1Q'
+	accessToken: cov__mbx_token
 }).addTo(cov_map);
 
 $.ajax({
@@ -58,7 +58,7 @@ $.ajax({
 					  "<br>" + cov__active + ": " + coronaData[i]["active"] +
 					  "<br>" + cov__casepmillion + ": " + coronaData[i]["casesPerOneMillion"] +
 					  "<br>" + cov__deathspmillion + ": " + coronaData[i]["deathsPerOneMillion"]
-					  );console.log( rad );
+					  );
 		}
 	},
 	error: function() {

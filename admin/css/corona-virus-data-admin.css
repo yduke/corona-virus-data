@@ -1,4 +1,1 @@
-/**
- * All of the CSS for your admin-specific functionality should be
- * included in this file.
- */
+#world{width:84%;height:auto}@media screen and (max-width: 782px){#world{width:100%;height:auto}}#cov_ser_st{width:10px;height:10px;border-radius:50%;display:inline-block;}.reddot{background-color:#fe6553}.greendot{background-color:#91d101}.cov-loading1{position: absolute;background-image:URL( '../../public/img/loading.svg' );background-size:20px 20px;background-repeat:no-repeat;width:40px;height:40px}
