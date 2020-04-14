@@ -1,13 +1,17 @@
 (function($) {
 	'use strict';
 	$(document).ready(function() {
-		let url = "https://corona.lmao.ninja/all";
-		let urlt = "https://corona.lmao.ninja/countries/" + cov__contry;
+		let url = "https://corona.lmao.ninja/v2/all";
+		let urlt = "https://corona.lmao.ninja/countries/" + cov__contry + "?strict=false";
 		$.getJSON(url, function(data, status) {
 			$("#cov-total-cases").append(data["cases"]);
 			$("#cov-total-recoverd").append(data["recovered"]);
 			$("#cov-total-dead").append(data["deaths"]);
 			$("#cov-total-active").append(data["active"]);
+			$("#cov-total-today-case").append(data["todayCases"]);
+			$("#cov-total-today-deaths").append(data["todayDeaths"]);
+			$("#cov-total-critical").append(data["critical"]);
+			$("#cov-total-case-million").append(data["casesPerOneMillion"]);
 			$("#cov-time").text(timestampToTime(data.updated, 1));
 			$(".cov-loading1").fadeOut("slow");
 		}).fail(function() {
@@ -34,7 +38,7 @@
 //   }
 		
 		if ($('#cov_all_table').length > 0) { // check all table exists
-			let url_all = 'https://corona.lmao.ninja/countries?sort=cases';
+			let url_all = 'https://corona.lmao.ninja/v2/countries?sort=cases';
 			$.getJSON(url_all, function(data, status) {
 //        var datas = data.sort(desc);
 				var transform = {
