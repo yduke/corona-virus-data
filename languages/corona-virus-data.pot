@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Corona Virus Data\n"
-"POT-Creation-Date: 2020-03-29 17:35+0800\n"
-"PO-Revision-Date: 2020-03-29 17:34+0800\n"
-"Last-Translator: Duke Yin <duke@dukeyin.com>\n"
-"Language-Team: Duke Yin <duke@dukeyin.com>\n"
+"POT-Creation-Date: 2020-04-14 10:24+0800\n"
+"PO-Revision-Date: 2020-04-14 10:24+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,7 +266,7 @@ msgid "Myanmar"
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
-msgid "Ivory Coast"
+msgid "Côte d'Ivoire"
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
@@ -997,6 +997,10 @@ msgstr ""
 
 #: includes/class-corona-virus-data.php:1
 msgid "Global Total"
+msgstr ""
+
+#: includes/class-corona-virus-data.php:1
+msgid "Affected Countries"
 msgstr ""
 
 #: includes/class-corona-virus-data.php:1

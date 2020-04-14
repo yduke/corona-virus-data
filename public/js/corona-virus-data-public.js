@@ -11,7 +11,7 @@
 			$("#cov-total-today-case").append(data["todayCases"]);
 			$("#cov-total-today-deaths").append(data["todayDeaths"]);
 			$("#cov-total-critical").append(data["critical"]);
-			$("#cov-total-case-million").append(data["casesPerOneMillion"]);
+			$("#cov-total-affected-countries").append(data["affectedCountries"]);
 			$("#cov-time").text(timestampToTime(data.updated, 1));
 			$(".cov-loading1").fadeOut("slow");
 		}).fail(function() {
