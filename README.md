@@ -2,7 +2,7 @@
 ![Corona Virus Data](https://raw.githubusercontent.com/yduke/corona-virus-data/master/assets/corona-virus-data-wordpress-plugin.png)
 The corona virus data WordPress plugin mirror.
 
-This plugin uses an api to display the "Corona virus" data in the whole world and country you care through shortcode [cov2019] [cov2019all] and [cov2019map] on your WordPress post or page.
+This plugin uses an api to display the "Corona virus" data in the whole world and country you care through shortcode [cov2019] [cov2019all] [cov2019map] [cov2019history] and [cov2019historyc] on your WordPress post or page.
 
 
 ## Getting Started
@@ -28,6 +28,10 @@ Put shortcodes into any of your WordPress page or post to show data in different
 * `[cov2019all]` Showing data of all countries in a talbe.
 
 * `[cov2019map]` Showing a map with data of each country.
+
+* `[cov2019history]`  A line chart showing global historical daily data.
+
+* `[cov2019historyc]`  A line chart showing historical daily data of the country you select.
 
 ## Versioning
 
