@@ -2,7 +2,7 @@
 	'use strict';
 	$(document).ready(function() {
 		let url = "https://corona.lmao.ninja/v2/all";
-		let urlt = "https://corona.lmao.ninja/countries/" + cov__contry + "?strict=false";
+		let urlt = "https://corona.lmao.ninja/v2/countries/" + cov__contry + "?strict=false";
 		$.getJSON(url, function(data, status) {
 			$("#cov-total-cases").append(data["cases"]);
 			$("#cov-total-recoverd").append(data["recovered"]);
