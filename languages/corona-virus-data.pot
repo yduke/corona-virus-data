@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Corona Virus Data\n"
-"POT-Creation-Date: 2020-04-16 12:32+0800\n"
-"PO-Revision-Date: 2020-04-16 12:32+0800\n"
+"POT-Creation-Date: 2020-04-19 00:07+0800\n"
+"PO-Revision-Date: 2020-04-19 00:07+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -949,6 +949,63 @@ msgstr ""
 msgid "API Status: "
 msgstr ""
 
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Shortcodes avalible"
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid ""
+"<code>[cov2019]</code> Showing basic data of world and a country you select."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019all]</code> Showing data of all countries in a talbe."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019map]</code> Showing a map with data of each country."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid ""
+"<code>[cov2019history]</code>  A line chart showing global historical daily "
+"data."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid ""
+"<code>[cov2019historyc]</code>  A line chart showing historical daily data "
+"of the country you select."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019namerica]</code> Data of North America."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019samerica]</code> Data of South America."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019europe]</code> Data of Europe."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019asia]</code> Data of Asia."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019oceania]</code> Data of Oceania."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019africa]</code> Data of Africa."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "Paste any of shortcodes above to your post or page to see the result."
+msgstr ""
+
 #: includes/class-corona-virus-data.php:1
 msgid ""
 "Failed to fetch data, maybe there is no data in your selected country, or "
@@ -997,31 +1054,6 @@ msgstr ""
 
 #: includes/class-corona-virus-data.php:1
 msgid "Daily Data"
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-msgid "Last update on: "
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-msgid "Global Total"
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-msgid "Affected Countries"
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-#, php-format
-msgid "Total in %s"
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-msgid "Sort by confirmed numbers."
-msgstr ""
-
-#: includes/class-corona-virus-data.php:1
-msgid "Country or Region"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
