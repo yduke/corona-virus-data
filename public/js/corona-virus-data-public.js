@@ -31,6 +31,7 @@
 			$("#cov-today-deaths").append(eNum(data.todayDeaths));
 			$("#cov-critical").append(eNum(data.critical));
 			$("#cov-active").append(eNum(data.active));
+			$("#cov-time-country").text(timestampToTime(data.updated, 1));
 			$(".cov-loading2").fadeOut("slow");
 		}).fail(function() {
 			$("#cov-time").html(cov__err_msg);
