@@ -33,6 +33,18 @@ Put shortcodes into any of your WordPress page or post to show data in different
 
 * `[cov2019historyc]`  A line chart showing historical daily data of the country you select.
 
+* `[cov2019namerica]` Data of North America.
+
+* `[cov2019samerica]` Data of South America.
+
+* `[cov2019europe]` Data of Europe.
+
+* `[cov2019asia]` Data of Asia.
+
+* `[cov2019oceania]` Data of Oceania.
+
+* `[cov2019africa]` Data of Africa.
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/yduke/corona-virus-data/tags). 
