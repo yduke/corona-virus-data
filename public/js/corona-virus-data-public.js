@@ -38,33 +38,39 @@
 		});
 //continents
 		$.getJSON(urlc, function(data, status) {
-			//South America
-			$("#cov-na-cases").append(eNum(data[0]["cases"] ? data[0]["cases"]: 'n/A'));
-			$("#cov-na-recoverd").append(eNum(data[0]["recovered"] ? data[0]["recovered"]: 'n/A' ));
-			$("#cov-na-dead").append(eNum(data[0]["deaths"] ? data[0]["deaths"]: 'n/A'));
-			$("#cov-na-active").append(eNum(data[0]["active"] ? data[0]["active"]: 'n/A'));
-			$("#cov-na-today-case").append(eNum(data[0]["todayCases"] ? data[0]["todayCases"]: 'n/A'));
-			$("#cov-na-today-deaths").append(eNum(data[0]["todayDeaths"] ? data[0]["todayDeaths"]: 'n/A'));
-			$("#cov-na-critical").append(eNum(data[0]["critical"] ? data[0]["critical"]: 'n/A'));
-			$("#cov-time-na").text(timestampToTime(data[0].updated, 1));
-			//Europe
-			$("#cov-eu-cases").append(eNum(data[1]["cases"] ? data[1]["cases"]: 'n/A'));
-			$("#cov-eu-recoverd").append(eNum(data[1]["recovered"] ? data[1]["recovered"]: 'n/A'));
-			$("#cov-eu-dead").append(eNum(data[1]["deaths"] ? data[1]["deaths"]: 'n/A'));
-			$("#cov-eu-active").append(eNum(data[1]["active"] ? data[1]["active"]: 'n/A'));
-			$("#cov-eu-today-case").append(eNum(data[1]["todayCases"] ? data[1]["todayCases"]: 'n/A'));
-			$("#cov-eu-today-deaths").append(eNum(data[1]["todayDeaths"] ? data[1]["todayDeaths"]: 'n/A'));
-			$("#cov-eu-critical").append(eNum(data[1]["critical"] ? data[1]["critical"]: 'n/A'));
-			$("#cov-time-eu").text(timestampToTime(data[1].updated, 1));
 			//Asia
-			$("#cov-as-cases").append(eNum(data[2]["cases"] ? data[2]["cases"]: 'n/A'));
-			$("#cov-as-recoverd").append(eNum(data[2]["recovered"] ? data[2]["recovered"]: 'n/A'));
-			$("#cov-as-dead").append(eNum(data[2]["deaths"] ? data[2]["deaths"]: 'n/A'));
-			$("#cov-as-active").append(eNum(data[2]["active"] ? data[2]["active"]: 'n/A'));
-			$("#cov-as-today-case").append(eNum(data[2]["todayCases"] ? data[2]["todayCases"]: 'n/A'));
-			$("#cov-as-today-deaths").append(eNum(data[2]["todayDeaths"] ? data[2]["todayDeaths"]: 'n/A'));
-			$("#cov-as-critical").append(eNum(data[2]["critical"] ? data[2]["critical"]: 'n/A'));
-			$("#cov-time-as").text(timestampToTime(data[2].updated, 1));
+			$("#cov-as-cases").append(eNum(data[0]["cases"] ? data[0]["cases"]: 'n/A'));
+			$("#cov-as-recoverd").append(eNum(data[0]["recovered"] ? data[0]["recovered"]: 'n/A'));
+			$("#cov-as-dead").append(eNum(data[0]["deaths"] ? data[0]["deaths"]: 'n/A'));
+			$("#cov-as-active").append(eNum(data[0]["active"] ? data[0]["active"]: 'n/A'));
+			$("#cov-as-today-case").append(eNum(data[0]["todayCases"] ? data[0]["todayCases"]: 'n/A'));
+			$("#cov-as-today-deaths").append(eNum(data[0]["todayDeaths"] ? data[0]["todayDeaths"]: 'n/A'));
+			$("#cov-as-critical").append(eNum(data[0]["critical"] ? data[0]["critical"]: 'n/A'));
+			$("#cov-as-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
+			$("#cov-time-as").text(timestampToTime(data[0].updated, 1));
+			$(".cov-loading2").fadeOut("slow");
+			//North America
+			$("#cov-na-cases").append(eNum(data[1]["cases"] ? data[1]["cases"]: 'n/A'));
+			$("#cov-na-recoverd").append(eNum(data[1]["recovered"] ? data[1]["recovered"]: 'n/A' ));
+			$("#cov-na-dead").append(eNum(data[1]["deaths"] ? data[1]["deaths"]: 'n/A'));
+			$("#cov-na-active").append(eNum(data[1]["active"] ? data[1]["active"]: 'n/A'));
+			$("#cov-na-today-case").append(eNum(data[1]["todayCases"] ? data[1]["todayCases"]: 'n/A'));
+			$("#cov-na-today-deaths").append(eNum(data[1]["todayDeaths"] ? data[1]["todayDeaths"]: 'n/A'));
+			$("#cov-na-critical").append(eNum(data[1]["critical"] ? data[1]["critical"]: 'n/A'));
+			$("#cov-na-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
+			$("#cov-time-na").text(timestampToTime(data[1].updated, 1));
+			$(".cov-loading2").fadeOut("slow");
+			//Europe
+			$("#cov-eu-cases").append(eNum(data[2]["cases"] ? data[2]["cases"]: 'n/A'));
+			$("#cov-eu-recoverd").append(eNum(data[2]["recovered"] ? data[2]["recovered"]: 'n/A'));
+			$("#cov-eu-dead").append(eNum(data[2]["deaths"] ? data[2]["deaths"]: 'n/A'));
+			$("#cov-eu-active").append(eNum(data[2]["active"] ? data[2]["active"]: 'n/A'));
+			$("#cov-eu-today-case").append(eNum(data[2]["todayCases"] ? data[2]["todayCases"]: 'n/A'));
+			$("#cov-eu-today-deaths").append(eNum(data[2]["todayDeaths"] ? data[2]["todayDeaths"]: 'n/A'));
+			$("#cov-eu-critical").append(eNum(data[2]["critical"] ? data[2]["critical"]: 'n/A'));
+			$("#cov-eu-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
+			$("#cov-time-eu").text(timestampToTime(data[2].updated, 1));
+			$(".cov-loading2").fadeOut("slow");
 			//South America
 			$("#cov-sa-cases").append(eNum(data[3]["cases"] ? data[3]["cases"]: 'n/A'));
 			$("#cov-sa-recoverd").append(eNum(data[3]["recovered"] ? data[3]["recovered"]: 'n/A'));
@@ -73,26 +79,31 @@
 			$("#cov-sa-today-case").append(eNum(data[3]["todayCases"] ? data[3]["todayCases"]: 'n/A'));
 			$("#cov-sa-today-deaths").append(eNum(data[3]["todayDeaths"] ? data[3]["todayDeaths"]: 'n/A'));
 			$("#cov-sa-critical").append(eNum(data[3]["critical"] ? data[3]["critical"]: 'n/A'));
+			$("#cov-sa-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
 			$("#cov-time-sa").text(timestampToTime(data[3].updated, 1));
-			//Oceania
-			$("#cov-oa-cases").append(eNum(data[4]["cases"] ? data[4]["cases"]: 'n/A'));
-			$("#cov-oa-recoverd").append(eNum(data[4]["recovered"] ? data[4]["recovered"]: 'n/A'));
-			$("#cov-oa-dead").append(eNum(data[4]["deaths"] ? data[4]["deaths"]: 'n/A'));
-			$("#cov-oa-active").append(eNum(data[4]["active"] ? data[4]["active"]: 'n/A'));
-			$("#cov-oa-today-case").append(eNum(data[4]["todayCases"] ? data[4]["todayCases"]: 'n/A'));
-			$("#cov-oa-today-deaths").append(eNum(data[4]["todayDeaths"] ? data[4]["todayDeaths"]: 'n/A'));
-			$("#cov-oa-critical").append(eNum(data[4]["critical"] ? data[4]["critical"]: 'n/A'));
-			$("#cov-time-oa").text(timestampToTime(data[4].updated, 1));
+			$(".cov-loading2").fadeOut("slow");
 			//Africa
-			$("#cov-af-cases").append(eNum(data[5]["cases"] ? data[5]["cases"]: 'n/A'));
-			$("#cov-af-recoverd").append(eNum(data[5]["recovered"] ? data[5]["recovered"]: 'n/A'));
-			$("#cov-af-dead").append(eNum(data[5]["deaths"] ? data[5]["deaths"]: 'n/A'));
-			$("#cov-af-active").append(eNum(data[5]["active"] ? data[5]["active"]: 'n/A'));
-			$("#cov-af-today-case").append(eNum(data[5]["todayCases"] ? data[5]["todayCases"]: 'n/A'));
-			$("#cov-af-today-deaths").append(eNum(data[5]["todayDeaths"] ? data[5]["todayDeaths"]: 'n/A'));
-			$("#cov-af-critical").append(eNum(data[5]["critical"] ? data[5]["critical"]: 'n/A'));
-			$("#cov-time-af").text(timestampToTime(data[5].updated, 1));			
-			$(".cov-loading1").fadeOut("slow");
+			$("#cov-af-cases").append(eNum(data[4]["cases"] ? data[4]["cases"]: 'n/A'));
+			$("#cov-af-recoverd").append(eNum(data[4]["recovered"] ? data[4]["recovered"]: 'n/A'));
+			$("#cov-af-dead").append(eNum(data[4]["deaths"] ? data[4]["deaths"]: 'n/A'));
+			$("#cov-af-active").append(eNum(data[4]["active"] ? data[4]["active"]: 'n/A'));
+			$("#cov-af-today-case").append(eNum(data[4]["todayCases"] ? data[4]["todayCases"]: 'n/A'));
+			$("#cov-af-today-deaths").append(eNum(data[4]["todayDeaths"] ? data[4]["todayDeaths"]: 'n/A'));
+			$("#cov-af-critical").append(eNum(data[4]["critical"] ? data[4]["critical"]: 'n/A'));
+			$("#cov-af-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
+			$("#cov-time-af").text(timestampToTime(data[4].updated, 1));			
+			$(".cov-loading2").fadeOut("slow");
+			//Oceania
+			$("#cov-oa-cases").append(eNum(data[5]["cases"] ? data[5]["cases"]: 'n/A'));
+			$("#cov-oa-recoverd").append(eNum(data[5]["recovered"] ? data[5]["recovered"]: 'n/A'));
+			$("#cov-oa-dead").append(eNum(data[5]["deaths"] ? data[5]["deaths"]: 'n/A'));
+			$("#cov-oa-active").append(eNum(data[5]["active"] ? data[5]["active"]: 'n/A'));
+			$("#cov-oa-today-case").append(eNum(data[5]["todayCases"] ? data[5]["todayCases"]: 'n/A'));
+			$("#cov-oa-today-deaths").append(eNum(data[5]["todayDeaths"] ? data[5]["todayDeaths"]: 'n/A'));
+			$("#cov-oa-critical").append(eNum(data[5]["critical"] ? data[5]["critical"]: 'n/A'));
+			$("#cov-oa-case-million").append(eNum(data[0]["casesPerOneMillion"] ? data[0]["casesPerOneMillion"]: 'n/A'));
+			$("#cov-time-oa").text(timestampToTime(data[5].updated, 1));
+			$(".cov-loading2").fadeOut("slow");
 		}).fail(function() {
 			$("#cov-time").html(cov__err_msg);
 		});
