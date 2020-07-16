@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(cov_map);
 
 $.ajax({
-	url: "https://corona.lmao.ninja/v2/countries",
+	url: "https://corona.lmao.ninja/v3/covid-19/countries",
 	beforeSend: function() {
 		$("#cov__map").hide();
 	},
@@ -49,7 +49,8 @@ $.ajax({
 					fillOpacity: .5,
 					radius: rad
 				     }).addTo(cov_map).bindPopup("<b>" + coronaData[i]["country"] + 
-					 "</b><hr>" + cov__cases + ": " + coronaData[i]["cases"] +  
+					 "</b><hr>" + cov__popu + ": " + coronaData[i]["population"] +  
+					 "<br>" + cov__cases + ": " + coronaData[i]["cases"] +  
 					  "<br>" + cov__deaths + ": " + coronaData[i]["deaths"] +
 					  "<br>" + cov__cases_today + ": " + coronaData[i]["todayCases"] + 
 					  "<br>" + cov__deaths_today + ": " + coronaData[i]["todayDeaths"] + 
