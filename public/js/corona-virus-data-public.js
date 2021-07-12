@@ -37,7 +37,7 @@
 			$("#cov-time").html(cov__err_msg);
 		});
 //continents
-        const continentToAbbr = {"Europe": "eu", "Asia": "as", "North America": "na", "South America": "sa", "Africa": "af", "Australia/Oceania": "oa"};
+        const continentToAbbr = {"Europe": "eu", "Asia": "as", "North America": "na", "South America": "sa", "Africa": "af", "Australia-Oceania": "oa"};
         
 		$.getJSON(urlc, function(data, status) {
             

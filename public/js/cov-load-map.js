@@ -29,20 +29,21 @@ $.ajax({
 			var lat = pos["lat"];
 			var lng = pos["long"];
 			var rad = coronaData[i]["cases"];
-			var col = "#ffd800";
+			var col = "#ccf800";
 			var exp = rad.toString().length - 1;
 			if(exp > 3) {exp = 3;}
 			if(rad < 8) {rad = 8;}
 			else {
-				rad = 5 + (rad / Math.pow(70, exp)) + (6 * (exp - 1));
-				if( rad >= 0 && rad <= 2) { col = "#ffd800";}
-				if( rad >= 2 && rad <= 8) { col = "#ffae00";}
-				if( rad >= 8 && rad <= 14) { col = "#ff7e00";}
-				if( rad >= 14 && rad <= 17) { col = "#ff6c00";}
-				if( rad >= 17 && rad <= 17.5) { col = "#ff3c00";}
-				if( rad >= 17.5 && rad <= 80) { col = "#ff0000";}
-				if( rad >80 ) {rad = 80;col ="#ff0000";}
+				rad = .9+ (rad / Math.pow(70, exp)) + (6 * (exp - 1));
+				if( rad >= 0 && rad <= 10) { col = "#ccf800";}
+				if( rad >= 10 && rad <= 13) { col = "#eff800";}
+				if( rad >= 13 && rad <= 17) { col = "#ff7e00";}
+				if( rad >= 17 && rad <= 20) { col = "#ff6c00";}
+				if( rad >= 20 && rad <= 35) { col = "#ff3c00";}
+				if( rad >= 35 && rad <= 40) { col = "#ff0000";}
+				if( rad >40 ) {rad = 40;col ="#ff0000";}
 			}
+			console.log(rad);
 			var circle = L.circleMarker([lat, lng], {
 					color: '',
 					fillColor: col,
