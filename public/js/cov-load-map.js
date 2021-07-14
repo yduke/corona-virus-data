@@ -43,7 +43,6 @@ $.ajax({
 				if( rad >= 35 && rad <= 40) { col = "#ff0000";}
 				if( rad >40 ) {rad = 40;col ="#ff0000";}
 			}
-			console.log(rad);
 			var circle = L.circleMarker([lat, lng], {
 					color: '',
 					fillColor: col,
