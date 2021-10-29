@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(cov_map);
 
 $.ajax({
-	url: "https://corona.lmao.ninja/v3/covid-19/countries",
+	url: "https://disease.sh/v3/covid-19/countries",
 	beforeSend: function() {
 		$("#cov__map").hide();
 	},

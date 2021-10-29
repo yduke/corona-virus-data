@@ -1,9 +1,9 @@
 (function($) {
 	'use strict';
 	$(document).ready(function() {
-		let url = "https://corona.lmao.ninja/v3/covid-19/all";
-		let urlt = "https://corona.lmao.ninja/v3/covid-19/countries/" + cov__contry + "?strict=false";
-		let urlc = "https://corona.lmao.ninja/v3/covid-19/continents";
+		let url = "https://disease.sh/v3/covid-19/all";
+		let urlt = "https://disease.sh/v3/covid-19/countries/" + cov__contry + "?strict=false";
+		let urlc = "https://disease.sh/v3/covid-19/continents";
 		function eNum(x){return x.toLocaleString('en')}
 //world
 		$.getJSON(url, function(data, status) {
@@ -63,7 +63,7 @@
 //   }
 		
 		if ($('#cov_all_table').length > 0) { // check all table exists
-			let url_all = 'https://corona.lmao.ninja/v3/covid-19/countries?sort=cases';
+			let url_all = 'https://disease.sh/v3/covid-19/countries?sort=cases';
 			$.getJSON(url_all, function(data, status) {
 //        var datas = data.sort(desc);
 				var transform = {
