@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Corona Virus Data\n"
-"POT-Creation-Date: 2021-07-12 11:27+0800\n"
-"PO-Revision-Date: 2021-07-12 11:26+0800\n"
+"POT-Creation-Date: 2022-04-13 17:27+0800\n"
+"PO-Revision-Date: 2022-04-13 17:27+0800\n"
 "Last-Translator: Duke Yin <duke@dukeyin.com>\n"
 "Language-Team: Duke Yin <duke@dukeyin.com>\n"
 "MIME-Version: 1.0\n"
@@ -954,12 +954,17 @@ msgid "Shortcodes available"
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
-msgid ""
-"<code>[cov2019]</code> Showing basic data of world and a country you select."
+msgid "<code>[cov2019]</code> Showing global COVID data."
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
-msgid "<code>[cov2019all]</code> Showing data of all countries in a talbe."
+msgid ""
+"<code>[cov2019contry]</code> Showing COVID data of the country or region you "
+"select."
+msgstr ""
+
+#: admin/class-corona-virus-data-admin.php:1
+msgid "<code>[cov2019all]</code> Showing data of all countries in a table."
 msgstr ""
 
 #: admin/class-corona-virus-data-admin.php:1
